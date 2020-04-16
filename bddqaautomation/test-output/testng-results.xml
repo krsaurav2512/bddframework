@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Execution started for : My test 1]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20055" started-at="2020-04-16T04:53:25Z" finished-at="2020-04-16T04:53:45Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.practice.bdd.automation.runners.PracticeRunner@56ef9176]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="20055" started-at="2020-04-16T04:53:25Z" finished-at="2020-04-16T04:53:45Z">
+      <class name="com.practice.bdd.automation.runners.PracticeRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.practice.bdd.automation.runners.PracticeRunner@56ef9176]" test-instance-name="" name="setUpClass" is-config="true" duration-ms="847" started-at="2020-04-16T10:23:25Z" finished-at="2020-04-16T10:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.practice.bdd.automation.runners.PracticeRunner@56ef9176]" test-instance-name="" name="reportSetup" is-config="true" duration-ms="50" started-at="2020-04-16T10:23:26Z" finished-at="2020-04-16T10:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method name="feature" test-instance-name="" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.practice.bdd.automation.runners.PracticeRunner@56ef9176]" status="PASS" duration-ms="17677" finished-at="2020-04-16T10:23:44Z" started-at="2020-04-16T10:23:27Z" data-provider="features" description="Runs Cucumber Feature">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Practice test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Execution started for : My test 1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.practice.bdd.automation.runners.PracticeRunner@56ef9176]" test-instance-name="" name="teardown" is-config="true" duration-ms="1" started-at="2020-04-16T10:23:44Z" finished-at="2020-04-16T10:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.practice.bdd.automation.runners.PracticeRunner@56ef9176]" test-instance-name="" name="tearDownClass" is-config="true" duration-ms="1250" started-at="2020-04-16T10:23:44Z" finished-at="2020-04-16T10:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.practice.bdd.automation.runners.PracticeRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

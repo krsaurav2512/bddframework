@@ -1,0 +1,116 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7623179547,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefination.intiate(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 328848063,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Practice_StepDefinition.intiate(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "My test 1",
+        "description": "",
+        "id": "practice-test;my-test-1;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1748569793,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefination.cleanUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 27374,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Practice_StepDefinition.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7533306330,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on flipkart login page",
+            "match": {
+              "location": "Practice_StepDefinition.user_is_on_flipkart_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3553542,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"krsaurav2512@gmail.com\" and \"Saurav@123\", click on login btn and verifies login staus",
+            "match": {
+              "arguments": [
+                {
+                  "val": "krsaurav2512@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Saurav@123",
+                  "offset": 42
+                }
+              ],
+              "location": "Practice_StepDefinition.user_enters_and_click_on_login_btn_and_verifies_login_staus(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test_practice"
+          },
+          {
+            "line": 1,
+            "name": "@practice"
+          }
+        ]
+      }
+    ],
+    "name": "Practice test",
+    "description": "",
+    "id": "practice-test",
+    "keyword": "Feature",
+    "uri": "features/Practice.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@practice"
+      }
+    ]
+  }
+]
